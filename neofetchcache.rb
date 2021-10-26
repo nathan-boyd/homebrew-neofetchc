@@ -4,6 +4,7 @@ class Neofetchcache < Formula
   url "https://github.com/nathan-boyd/neofetchcache/archive/refs/tags/1.0.0.tar.gz"
   sha256 "ed8039e8ecc954e47c0203e5e7f07b859817d7c116482bc9550054c68c6fba57"
   license "MIT"
+  depends_on "neofetch"
 
   def install
     puts "Installing Neofetch Cache"
