@@ -6,13 +6,9 @@ class Neofetchcache < Formula
   license "MIT"
 
   def install
+    puts "Installing Neofetch Cache"
     bin.install "neofetch_cache.sh" => "neofetchc"
-    puts "Completed install"
-    puts "Run neofetchc"
+    puts "Thanks for installing Neofetch Cache"
+    puts "Run the tool with the command 'neofetchc'"
   end
-
-#  test do
-#    assert_predicate testpath/"output.txt", :exist?
-#  end
-
 end
