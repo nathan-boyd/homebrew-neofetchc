@@ -1,4 +1,4 @@
-class Neofetchcache < Formula
+class Neofetchc < Formula
   desc "A script to create a daily neofetch cache"
   homepage "https://github.com/nathan-boyd/neofetchcache/README.md"
   url "https://github.com/nathan-boyd/neofetchcache/archive/refs/tags/1.0.0.tar.gz"
