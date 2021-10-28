@@ -1,8 +1,8 @@
 class Neofetchc < Formula
   desc "A script to create a daily neofetch cache"
   homepage "https://github.com/nathan-boyd/neofetchcache/README.md"
-  url "https://github.com/nathan-boyd/neofetchcache/archive/refs/tags/1.0.0.tar.gz"
-  sha256 "ed8039e8ecc954e47c0203e5e7f07b859817d7c116482bc9550054c68c6fba57"
+  url "https://github.com/nathan-boyd/neofetchc/archive/refs/tags/1.1.0.tar.gz"
+  sha256 "3c252c1366a233f665fb344647772cef96228150c2fb14e0a25cc9dabcb10b6e"
   license "MIT"
   depends_on "neofetch"
 
