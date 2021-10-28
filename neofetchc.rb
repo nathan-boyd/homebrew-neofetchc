@@ -8,7 +8,7 @@ class Neofetchc < Formula
 
   def install
     puts "Installing Neofetch Cache"
-    bin.install "neofetchc"
+    bin.install "neofetchc.sh" => "neofetchc"
     puts "Thanks for installing Neofetch Cache"
     puts "Run the tool with the command 'neofetchc'"
     puts ""
